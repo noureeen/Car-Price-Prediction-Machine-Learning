@@ -2,9 +2,9 @@
 The objective is to build a predictive model for car prices in the US automobile market and, more importantly, to extract actionable insights that can support strategic decision-making.
 
 ---
-# 🚗 Car Price Prediction – Machine Learning Portfolio Project
+#  Car Price Prediction – Machine Learning Portfolio Project
 
-## 👋 About This Project
+## About This Project
 
 This project is part of my **Machine Learning portfolio**, developed to demonstrate my ability to apply data science concepts to real-world business problems.
 
@@ -12,19 +12,21 @@ The objective is to build a **predictive model for car prices** in the US automo
 
 ---
 
-## 🎯 Problem Statement
 
-A Chinese automobile company is planning to enter the American market. To compete effectively, the company needs to understand:
+## Business Problem
+
+To compete effectively in a new market, the company needs to understand:
 
 * What factors influence car prices in the US
-* How technical and brand-related features impact pricing
-* How data can guide market entry and product positioning
+* How technical specifications and brand value impact pricing
+* How data-driven insights can guide product positioning
 
-This project answers those questions using machine learning techniques.
+This project uses machine learning to answer these questions in a practical and interpretable way.
+
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 The dataset contains detailed information on cars sold in the US market, including:
 
@@ -38,7 +40,7 @@ Each row represents a unique car model with its corresponding attributes.
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 The project follows an end-to-end machine learning workflow:
 
@@ -72,7 +74,7 @@ The project follows an end-to-end machine learning workflow:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * **Python**
 * **Jupyter Notebook**
@@ -80,35 +82,56 @@ The project follows an end-to-end machine learning workflow:
 
 ---
 
-## 📈 Key Takeaways
 
-* Engine size, horsepower, and vehicle weight strongly influence car prices
-* Brand value plays a critical role in market positioning
-* Fuel efficiency and size impact pricing depending on vehicle segment
+## Model Comparison (Key Focus)
 
-These findings highlight how technical and brand-related factors combine to shape pricing strategies.
+Two primary models were compared:
+
+* **Linear Regression**
+
+  * Served as a strong baseline model
+  * Offered high interpretability and clear feature influence
+  * Useful for explaining pricing decisions to business stakeholders
+
+* **Random Forest Regression**
+
+  * Captured non-linear relationships in the data
+  * Demonstrated improved predictive performance
+  * Highlighted complex feature interactions
+
+This comparison illustrates the practical machine learning trade-off between **interpretability and performance**, ensuring model selection aligns with real-world business needs.
+
 
 ---
 
-## ✅ Conclusion
+## Key Insights
 
-This portfolio project demonstrates my ability to:
+* Engine size, horsepower, and vehicle weight are strong price drivers
+* Brand value significantly impacts market pricing
+* Fuel efficiency and vehicle size affect pricing differently across segments
+
+These insights can directly support pricing strategy and market entry decisions.
+
+---
+
+## Conclusion
+
+Rather than relying on a single algorithm, this project emphasizes **model comparison** to evaluate both business clarity and predictive capability.
+
+Linear Regression provides transparency and ease of explanation, while Random Forest improves accuracy by capturing complex patterns. Together, they demonstrate a balanced and professional machine learning approach.
+
+This project reflects my ability to:
 
 * Translate business problems into data science solutions
-* Perform structured data analysis and feature engineering
-* Build and evaluate machine learning models
-* Communicate insights in a clear, business-focused manner
-
-The project reflects not just technical skills, but also an understanding of **how machine learning supports real business decisions**.
+* Apply and compare machine learning models thoughtfully
+* Communicate technical results in a business-focused manner
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Experiment with advanced regression models
 * Improve feature selection and tuning
 * Deploy the model as a simple web application
 
----
 
-📌 *This project was completed as part of a Machine Learning module and is included in my professional portfolio to showcase applied data science skills.*
